@@ -146,7 +146,7 @@ module CalendarHelper
       cal << %(</th>)
     end
 
-    cal << "</tr></thead><tbody><tr>"
+    cal << "</tr></thead><tbody class='vcalendar'><tr>"
 
     # previous month
     begin_of_week = beginning_of_week(first, first_weekday)
